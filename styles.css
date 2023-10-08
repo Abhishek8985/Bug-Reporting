@@ -5,7 +5,6 @@ body{
     border-style: none;
 }
 .container{
-    position: absolute;
     width: 100%;
     height:fit-content;
     padding: 0%;
@@ -19,7 +18,7 @@ body{
     background: #000;
     opacity: 0.6;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     z-index: 5;
     
     }
@@ -27,39 +26,42 @@ body{
         text-decoration: none;
         color: aliceblue;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1.3vw;
     }
     .two{
         text-decoration: none;
         color: aliceblue;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1.3vw;
     }
     .three{
         text-decoration: none;
         color: aliceblue;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 1.3vw;
     }
 
 .bar{
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    gap: 20%;
     width: 25%;
     top: 42%;
     left: 64%;
 }
 .textTheme1{
-    width: fit-content;
- position: relative;
- left: 20%;
- color: aliceblue;
- font-size: 2em;
- justify-content: center;
- transform: translateX(-25%);
+    width:50%;
+    position: relative;
+    left: 5%;
+    color: aliceblue;
+    font-size: 1.3vw;
+    justify-content: center;
 }
-
+/* @media onl screen(max-width:600px){
+    .textTheme1{
+        font-size:20px;
+    }
+} */
 .content{
     position: absolute;
     width: 99.7%;
@@ -70,6 +72,7 @@ body{
     display: flex;
     flex-shrink:initial;
     justify-content:center;
+    font-size: 3vw;
     color: rgb(7, 38, 124);
 }
 .inner{
@@ -77,6 +80,7 @@ body{
     width: 100%;
     top: 70%;
     left:18%;
+    font-size: 1.15vw;
 }
 .text{
     border-radius: 20px;
@@ -123,7 +127,7 @@ body{
 }
 .quotations{
     margin-top: 5%;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -142,67 +146,90 @@ body{
     box-shadow:  4px 8px 10px 10px rgba(0,0,0,0.2);
     border-radius: 20px;
     background-color: #f2d6d6;
-
+    padding-bottom: 6%;
 }
 .head{
-    width: 45%;
+    width: 70%;
     height: fit-content;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    left: 30%;
+    margin: auto;
+    left: 8%;
     color: #5e0202;
     padding-top: 5%;
+    font-size: 1.4vw;
 }
 .form-content{
-    /* margin-top: 10%;
-    margin-left: 35%;
-    margin-right: 35%; */
     width: 70%;
+    height:30em;
     border-style: solid;
     position: relative;
     margin: auto;
     margin-top: 10%;
     display: flex;
-    justify-content: space-between;
-    flex-shrink: inherit;
+    flex-shrink: initial;
+    /* justify-content: space-between; */
+    /* flex-shrink:inherit; */
+}
+.form-labels{
+    position: relative;
+    width: 50%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+}
+.form-inputs{
+    position: relative;
+    width: 50%;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
 }
 .labels{
+    position: relative;
     border-style: solid;
-    padding: 8%;
-    padding-right: 0%;
+    padding: 8% 0% 8% 0%;
     width: 100%;
-    margin: 45% 0% 0% 65% ;
     font-weight:bolder;
-    font-size: 16px;
-    flex-shrink: inherit;
+    font-size: 1.2vw;
     border-radius: 10px;
     color: #050d77;
 }
 .inputs{
     position: relative;
-    top: 9%;
     border-style: solid;
-    width: 90%;
-    margin: 4% 0% 15.58% 0% ;
-    flex-wrap: wrap;
+    width: 100%;
+    padding: 3.4% 0% 3.4% 0%;
+    font-size: 1.2vw;
     box-shadow:  10px 8px 10px 5px rgba(0,0,0,0.2);
     border-radius: 10px;
 }
 input[type=text] {
+    position: relative;
     width: 100%;
-    padding: 10px 100px;
+    padding: 5% 23%;
     box-sizing: border-box;
     border-radius: 10px;
     font-weight:bold;
 }
+::placeholder{
+    font-size: 1.2vw;
+}
+:placeholder-shown{
+    width: 10vw;
+    height: 6.5vh;
+}
 #bug-type{
+    position: relative;
     width: 100%;
-    padding: 12px 50px;
+    padding: 4% 23%;
     border-radius: 10px;
     color: #2a2222;
     font-weight:bold;
-    font-size: 16px;
+    font-size: 1.2vw;
 }
 .il{
     margin-bottom: 45%;
