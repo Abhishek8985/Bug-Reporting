@@ -25,8 +25,8 @@
                     <div class="form-labels">
                         <div class="labels"><label for="bug">Select bug type : </label></div>
                         <div class="labels"><label for="name">Name : </label></div>
-                        <div class="labels"><label for="name">Name : </label></div>
-                        <div class="labels"><label for="name">Name : </label></div>
+                        <div class="labels"><label for="bug-img">Bug Image : </label></div>
+                        <div class="labels"><label for="bug-video">Name : </label></div>
                     </div>
                     <div class="form-inputs">
                         <div class="inputs">
@@ -49,23 +49,17 @@
                           placeholder="enter your name"
                         />
                         </div>
-                        <div class="inputs">
-                            <input
-                          type="text"
-                          name="name"
-                          class="form-control"
-                          id="name"
-                          placeholder="enter your name"
-                        />
+                        <div class="inputs i1">
+                            <label class="file-input-label">
+                                <input type="file" name="bug-img" accept="image/png, image/gif, image/jpeg" class="file-input" />
+                                <span class="file-input-text">Choose an image</span>
+                            </label>
                         </div>
-                        <div class="inputs il">
-                            <input
-                          type="text"
-                          name="name"
-                          class="form-control"
-                          id="name"
-                          placeholder="enter your name"
-                        />
+                        <div class="inputs il i2">
+                            <label class="file-input-label">
+                                <input type="file" name="bug-video" accept="video/*" class="file-input" />
+                                <span class="file-input-text">Choose a video</span>
+                            </label>
                         </div>
                     </div>
                 </div>
