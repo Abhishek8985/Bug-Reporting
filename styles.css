@@ -232,9 +232,9 @@ input[type=text] {
     font-weight:bold;
     font-size: 1.2vw;
 }
-.il{
+/* .il{
     margin-bottom: 45%;
-}
+} */
 @media screen and (max-width:470px)
 {
     .menu-bar{
@@ -283,6 +283,6 @@ input[type=text] {
     font-size: 1.15vw;
     font-weight: bold;
 }
-.i1 ,.i2{
+.i1{
     padding: 7% 0% 7% 0%;
 }
