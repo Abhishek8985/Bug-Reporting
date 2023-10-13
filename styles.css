@@ -264,8 +264,32 @@ input[type=text] {
     }
     .bug-report{
         margin-top:25%;
+        width:90%;
     }
-    
+    .head{
+        font-size:2.5vw;
+        left:1%;
+    }
+    .form-content{
+        grid-template-columns: repeat(1,1fr);
+        height:37em;
+    }
+    .labels{
+        font-size: 5vw;
+    }
+    .grid-label{
+        margin:2% 2% 2% 1%;
+    }
+    .inputs{
+        width:90%;
+        font-size:4vw;
+    }
+    .grid-tag{
+        margin:5% 5% 5% 7%;
+    }
+    #bug-type{
+        font-size:3vw;
+    }
 }
 .file-input-label {
     position: relative;
