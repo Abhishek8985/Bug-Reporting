@@ -215,18 +215,19 @@ body{
 input[type=text] {
     position: relative;
     width: 100%;
-    padding: 4% 23%;
+    height: 5em;
+    /* padding: 4% 23%; */
     box-sizing: border-box;
     border-radius: 10px;
     font-weight:bold;
 }
-::placeholder{
+/* ::placeholder{
     font-size: 1.2vw;
-}
-:placeholder-shown{
+} */
+/* :placeholder-shown{
     width: 100%;
     height: 90%;
-}
+} */
 #bug-type{
     position: relative;
     width: 100%;
@@ -345,7 +346,7 @@ input[type=text] {
     margin: auto;
     margin-top: 10%;
     position: relative;
-    width: 20%;
+    width: 30%;
     padding: 3%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
@@ -368,7 +369,7 @@ input[type=text] {
   background-position: center;
   position: relative;
   margin-top: 10%;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 contact-us-form::after {
@@ -533,7 +534,7 @@ section {
   }
   
   .row {
-    flex-direction: column;
+    flex-direction: row;
   }
   
   .contact-info {
