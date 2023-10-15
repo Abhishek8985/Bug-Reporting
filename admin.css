@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family: 'Baloo Bhai', cursive;
+    background-size: cover;
+    padding:3em;
+    height: 80vh;
+    /* background-size:100%; */
+    background-position: center;
+    background-repeat:no-repeat;
+  }
+  #form img{
+    border:2px solid white;
+    border-radius:50%;
+    margin:2px;
+    width:80px;
+  }
+  #form h1{
+    color:rgb(189, 95, 45);
+  }
+  #form h2{
+    color:rgb(102, 102, 102);
+    font-size:16px;
+    text-align:left;
+    margin-left:10px;
+    margin-bottom:1px;
+  }
+  #form{
+    width:300px;
+    background:transparent;
+    height:400px;
+    margin:0 auto;
+    text-align: center;
+    border: 2px solid white;
+    border-radius:4%;
+    position: relative;
+  }
+  #form .text{
+    width:280px;
+    height:25px;
+    margin:3px;
+    border:2px solid white;
+    border-radius:5%;
+    background:transparent;
+    color:rgb(189, 95, 45);
+  }
+  #form .submit-button{
+    width:70px;
+    height:25px;
+    border:2px solid white;
+    background: transparent;
+    margin-top:10px;
+    border-radius:4%;
+    color:rgb(196, 127, 36);
+  }
+  @media (max-width: 1180px){
+    body{
+        height: 84vh;
+    }
+  }
